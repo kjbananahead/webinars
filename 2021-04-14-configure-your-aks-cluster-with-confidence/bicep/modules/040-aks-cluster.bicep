@@ -14,7 +14,7 @@ param aksSettings object = {
   dockerBridgeCidr: '172.16.4.1/22' // Used for the default docker0 bridge network that is required when using Docker as the Container Runtime.  Not used by AKS or Docker and is only cluster-routable.  Cluster IP based addresses are allocated from this range.  Can be safely reused in multiple clusters.
   outboundType: 'loadBalancer'
   loadBalancerSku: 'standard'
-  sku_tier: 'Paid'				
+  sku_tier: 'Free'				
   enableRBAC: true 
   aadProfileManaged: true
   adminGroupObjectIDs: [] 
