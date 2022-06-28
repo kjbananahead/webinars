@@ -48,7 +48,7 @@ resource aksAzureMonitor 'Microsoft.OperationalInsights/workspaces@2020-03-01-pr
   location: resourceGroup().location
   properties: {
     sku: {
-      name: 'Standard'
+      name: 'PerGB2018'
     }
     retentionInDays: 30
     workspaceCapping: {
